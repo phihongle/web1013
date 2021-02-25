@@ -1,0 +1,261 @@
+body{
+    padding: 0px;
+    margin: 0px;
+  }
+  #page{
+   max-width: 1000px;
+   margin: auto;
+  text-align: center;
+  }
+  
+  #page>header{
+   background-image:  url('BIA.png');
+   background-size: 100% 100%;
+   height: 0px;
+   padding-bottom: 35%;
+  }
+  
+  #page>nav{
+   line-height: 20px;
+   background-color: orangered; 
+  }
+  
+  section{
+   width: 100%;
+  }
+  
+  #page>article{ 
+   background-color: white;
+   width:  75%;
+   float: left; 
+  }
+  
+  #page>aside{
+   background-color:white;
+   width: 25%;
+   float: right; 
+  }
+  
+  #page>footer{
+   clear:both;
+   border-top: 5px double purple;
+   background-color: orangered;
+   text-align: center;
+  }
+  .col-25{
+    width: 25%;
+    float: left;}
+  .prod{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    position: relative;}
+  .prod>.name{
+    font-variant: small-caps;
+    color: orangered;}
+  .prod>.image{
+    max-width: 98%;
+    height: 200px;
+    margin-bottom: 10px;  
+    }
+  .prod>.price{
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    font-family: Impact;
+    font-size: 25px;
+    color: orange;}
+  .prod>.icon{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    width: 25px;   }
+  .prod>.new-icon{
+    position: absolute;
+    top: 0px;
+    right: 0px;    }
+    
+    #page>a:hover{
+    Position:relative;
+    color: pink;
+    }
+    .top-right{
+     Position:absolute;
+    Top:0px;
+    right: 290px;
+    Border-bottom-left-radius: 1000px;
+    size: 30px;
+   
+    }
+    .top-right>a:hover{
+      color: yellow;
+    }
+    .company-info{
+    Bottom:100px;
+    Left:100px;
+    }
+    .company-info{
+      Bottom:100px;
+      Left:100px;
+      }
+      .top-right{
+        position: absolute;
+        top: 0px;
+        right: 300px;
+        border-bottom-left-radius: 30px;    }
+    
+
+   
+        .info{
+            color:white;
+            text-shadow: 0 0 30px black;
+            font-size: x-large;
+            font-weight: 300;
+            position: absolute;
+            left: 300px;
+            top: 180px;  
+            font-variant:small-caps; 
+            font-size: 20px;
+            word-spacing: 0px;
+            letter-spacing: 0px;
+            line-height: 5px;   
+            text-decoration: black;
+            bottom: 5px;
+        
+             }          
+             p{
+                 letter-spacing: 7px;
+             }
+             h3{
+                 letter-spacing: 30px;
+             }
+    
+
+.menu>ul>li{
+    display: inline-block;
+    position: relative;
+}
+.menu>ul>li>a{
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+}
+.menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+}
+.menu>ul>li>a:hover{
+    color: yellow;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+}
+.menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+    z-index: 1;
+    height: auto;
+}
+.menu ul ul a:hover{
+    background-color: orangered;
+    color: white;
+}
+
+
+
+.vmenu{
+    padding:0px;
+    margin:5px;
+    list-style:none;
+    border-radius:3px;
+    box-shadow:0 0 2px gray;
+    right: 100px;
+   }
+   .vmenu>li>a{
+       background: url('hinh-tron.jpg') no-repeat 10px center;
+       display: block;
+       border-bottom: 1px dotted orangered;
+       color:  orangered;
+       font-variant: small-caps;
+       text-decoration: none;
+       padding: 8px 5px 8px 30px ;
+      }
+      .vmenu>li>a:hover{
+       background: url('dau-check.png') no-repeat left center ;
+          font-weight: bold ;
+          color: red; 
+      }
+
+
+    table{
+        border: 1px solid green;
+        border-collapse: collapse;
+    }
+th,td{
+    border: 1px solid green;
+}
+h2{text-align: left;}
+
+tr:first-child{
+    background-color: orangered;}
+tr:nth-child(2){background-color: orangered;}
+tr:nth-child(3){
+    background-color: lightgray;
+}
+tr:nth-child(5){
+    background-color: lightgray;
+}
+tr:nth-child(7){
+    background-color: lightgray;
+}
+tr:nth-child(9){
+    background-color: lightgray;
+}
+tr:nth-child(11){
+    background-color: lightgray;
+}
+
+.tin{
+float: left;
+width: 30%;
+margin: 5px;
+clear: both;}
+h4{ color: blue;
+    float:right;
+    width: 65%;
+    margin: 0px;}
+p{
+    margin: 0px;
+    float: right;
+    width: 65%;
+}
+
+
+
+

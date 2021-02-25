@@ -1,0 +1,16 @@
+
+main{
+    text-align: left;
+}
+.chitiet{
+    width: 100%;
+    border: 1px solid green;
+}
+.chitiet>.chitiet-image{
+    width: 40%;
+    float: left;
+}
+.chitiet>.chitiet-description{
+    width: 60%;
+    float: right:
+}
